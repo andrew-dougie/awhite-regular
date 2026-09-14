@@ -2,7 +2,7 @@
 
 Digitized from Andrew White’s own handwriting, circa 2024. Includes separate uppercase and lowercase forms. Available as OTF and WOFF2.
 
-![AWhite Regular specimen: menu labels, uppercase and lowercase letters, numbers and punctuation](docs/specimen.svg)
+![AWhite Regular specimen using an excerpt from Blood Meridian](docs/specimen.svg)
 
 ## Download
 
@@ -72,7 +72,7 @@ Add `AWhite-Regular.otf` to the target’s resources and list it under `UIAppFon
 
 ```swift
 label.font = UIFont(name: "AWhite-Regular", size: 28)
-label.text = "Return to main menu"
+label.text = "His feet are light and nimble."
 ```
 
 ## Packaging and verification
@@ -88,6 +88,6 @@ python tools/verify-font.py
 
 The included desktop font supplies the outlines. The tools export WOFF2, generate the README specimen, and verify both formats. An editable font-design project or outline generator is not included.
 
-## Attribution and license
+## Attribution and font license
 
 Copyright © 2024 Andrew White. Licensed under the **[SIL Open Font License 1.1](OFL.txt)**. Retain the included copyright and license when redistributing the font. No Reserved Font Names are declared in the included license.
